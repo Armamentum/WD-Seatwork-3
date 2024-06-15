@@ -13,9 +13,6 @@
 
   <h3 align="center">Seatwork 3: Footer & Header</h3>
 </div>
-<div align="center">
-  Description. (Optional)
-</div>
 
 <br />
 
