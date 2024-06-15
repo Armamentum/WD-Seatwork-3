@@ -67,7 +67,7 @@ h2 {
 .static .mk-logo-3,
 .static .mk-logo-4,
 .static .mk-logo-5 {
-    height: 60px; /* Adjust logo height as needed */
+    height: 60px;
     margin-right: 20px;
 }
 
@@ -128,7 +128,7 @@ h2 {
 }
 
 .static .design-five .mk-logo-5 {
-    height: 100px; /* Larger logo size for emphasis */
+    height: 100px;
     margin-bottom: 10px;
 }
 
@@ -165,7 +165,7 @@ h2 {
 }
 
 .animated .animation-container .mk-logo-animated {
-    width: 220px; /* Adjust image sizes as needed */
+    width: 220px;
     margin-bottom: 10px;
     position: relative;
     cursor: pointer;
