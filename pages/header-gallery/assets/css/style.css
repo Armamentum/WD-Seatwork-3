@@ -1,64 +1,82 @@
-/* Reset default margin and padding */
-body, h1, h2, h3, p {
+body {
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: white;
+}
+.home a{
+    display: flex;
+    justify-content: center;
 }
 
-body{
-    background-color: #811a1a;
+h1, h2 {
+    text-align: center;
+    color: #ffd700;
 }
 
-/* Center align content */
-.container {
+a {
+    text-decoration: none;
+    color: #ffd700;
+}
+
+.company-logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navigation {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center; /* Center align text */
+    align-c: center;
+    padding: 10px;
 }
 
-.button {
-   
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #aaf013;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
+.navigation-content {
+    margin: 10px 0;
+    color: #ffd700;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-.button:hover {
-    background-color: #0d4200;
-    color: white;
-}
-
-/*set one*/
-
-.basic-navbar {
-    background-color: #333;
-    overflow: hidden;
-}
-
-.basic-navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.vertical {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 20px;
+    margin: 10px auto;
+    width: 200px;
+    border: 2px solid #ffd700;
 }
 
-.basic-navbar li {
-    flex: 1;
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 10px 20px;
+    margin: 10px auto;
+    width: 80%;
+    border: 2px solid #ffd700;
 }
 
-.basic-navbar a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.animated .company-logo:hover {
+    transform: scale(1.1);
 }
 
-.basic-navbar a:hover {
-    background-color: #575757;
-/*end set one*/
+.animated .navigation-content:hover {
+}
+
+.animated .navigation-content:hover {
+    color: #ffd700; /* Change text color on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+.animated .socials a:hover {
+    transform: scale(1.1); /* Example: Scale social icons on hover */
+    color: #ffd700; /* Change social icon color on hover */
 }
