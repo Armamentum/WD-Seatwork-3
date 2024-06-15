@@ -48,22 +48,22 @@
 
 ---
 
-## Overview (to be updated)
+## Overview 
 
-This Project shows a glimpse into the variety of animations and styles one may use when designing a website.
+This project showcases a diverse range of animations and styles that can be implemented when designing a website. It highlights the creative possibilities available to developers and designers, focusing on both header and footer sections.
 
 ### Key Components
 - Header Animation
   - Hover Effect
-  - Active Effect
-  - Multi Layer Domino Effect
-  - Not Effect
+  - Transform Effect
+  - Tilt Effect
+  - Flip Effect
 
 - Footer Animations (to be updated)
-  - Hover Effect
-  - Active Effect
-  - Multi Layer Domino Effect
-  - Not Effect
+  - Pulse Effect
+  - Slide Effect
+  - active Effect
+  - transform Effect
 
 
 
