@@ -1,120 +1,158 @@
-/* Basic Styles */
-
-body {
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
     padding: 20px;
-}
-
-.home {
+  }
+  
+  h2 {
+    margin-top: 40px;
+  }
+  
+  /* Home link styles */
+  .home {
     text-align: center;
     margin-bottom: 20px;
-}
-
-.button {
+  }
+  
+  .button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #333;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.button:hover {
+    border-radius: 4px;
+  }
+  
+  .button:hover {
     background-color: #555;
-}
-
-h2 {
-    margin-top: 40px;
-}
-/* Static Navbar Designs */
-
-.static {
+  }
+  
+  /* Static navbar styles */
+  .static {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .static h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .static .design-one,
+  .static .design-two,
+  .static .design-three,
+  .static .design-four,
+  .static .design-five {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .static .mk-logo-1,
+  .static .mk-logo-2,
+  .static .mk-logo-3,
+  .static .mk-logo-4,
+  .static .mk-logo-5 {
+    height: 60px; /* Adjust logo height as needed */
+    margin-right: 20px;
+  }
+  
+  .static .navigation {
+    display: flex;
+  }
+  
+  .static .navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+  }
+  
+  .static .navigation a:hover {
+    background-color: #555;
+  }
+  
+  /* Specific designs */
+  .design2 .design-two {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.static h3 {
-    margin-bottom: 10px;
-    font-size: 1.2em;
-    color: #333;
-}
-
-.static .company-title {
-    width: 150px; /* Adjust size as necessary */
-    margin-bottom: 10px;
-}
-
-.static .company-logo {
-    width: 100px; /* Adjust size as necessary */
-    margin-bottom: 10px;
-}
-
-.static .navigation {
+    align-items: center;
+  }
+  
+  .design2 .mk-title-2 {
     margin-top: 10px;
-}
-
-.static .navigation-content {
+  }
+  
+  .design3 .design-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .design3 .mk-logo-3 {
+    order: 2;
+  }
+  
+  .design3 .mk-title-3 {
+    order: 1;
+    margin-bottom: 10px;
+  }
+  
+  .design3 .navigation.vertical {
+    display: none;
+  }
+  
+  .design3 .navigation-button {
+    margin-top: 10px;
+  }
+  
+  .design3 input[type="checkbox"] {
+    display: none;
+  }
+  
+  .design3 input[type="checkbox"]:checked ~ .navigation.vertical {
     display: block;
-    padding: 8px 0;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.static .navigation-content:hover {
-    color: #555;
-}
-
-/* Animated Navbar Designs */
-
-.animated {
-    transition: all 0.3s ease-in-out;
-}
-
-.animated.fade-in {
-    opacity: 0;
-}
-
-.animated.fade-in.active {
-    opacity: 1;
-}
-
-.animated.fade-in-out {
-    opacity: 1;
-}
-
-.animated.fade-in-out.active {
-    opacity: 0;
-}
-
-.animated.slide-in {
-    transform: translateX(-100%);
-}
-
-.animated.slide-in.active {
-    transform: translateX(0);
-}
-
-.animated.rotate-on-hover {
-    transition: transform 0.3s ease-in-out;
-}
-
-.animated.rotate-on-hover:hover {
-    transform: rotate(360deg);
-}
-
-.animated.background-color-transition {
-    transition: background-color 0.3s ease-in-out;
-}
-
-.animated.background-color-transition:hover {
-    background-color: #ddd;
-}
+    flex-direction: column;
+  }
+  
+  .design4 .design-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .design4 .mk-title-4 {
+    margin-top: 10px;
+  }
+  
+  .design5 .design-five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .design5 .mk-title-5 {
+    margin-top: 10px;
+  }
+  
+  .design5 .navigation.vertical-alt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .design5 .navigation.vertical-alt a {
+    margin-bottom: 10px;
+  }
+  
