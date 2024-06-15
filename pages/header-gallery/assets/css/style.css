@@ -1,4 +1,4 @@
-/* Reset default margin and padding for all elements */
+/* Base styles for all elements */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,10 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
+    background: url(../img/mk-bg-header-gallery);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 20px;
 }
 
@@ -26,7 +29,7 @@ h2 {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #333333;
     color: white;
     text-decoration: none;
     border-radius: 4px;
@@ -38,7 +41,7 @@ h2 {
 
 /* Static navbar styles */
 .static {
-    background-color: #333;
+    background-color: #3333337a;
     color: white;
     padding: 20px;
     margin-bottom: 20px;
@@ -84,68 +87,66 @@ h2 {
 }
 
 /* Specific designs */
-.design-two {
+.static .design-two {
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.design-three .design-three,
-.design-four .design-four {
-    display: flex;
+.static .design-three {
     flex-direction: column;
     align-items: center;
 }
 
-.design-three .navigation.vertical,
-.design-four .navigation.vertical {
-    display: flex;
+.static .design-three .navigation {
     flex-direction: column;
 }
 
-.design-three .navigation.vertical a,
-.design-four .navigation.vertical a {
+.static .design-three .navigation a {
     padding: 10px 15px;
     margin-bottom: 5px;
 }
 
-.design-three .navigation.vertical a:hover,
-.design-four .navigation.vertical a:hover {
+.static .design-three .navigation a:hover {
     background-color: #555;
 }
 
-/* Design 5 specific styles */
-.design-five {
+.static .design-four .top-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.static .design-four .navigation {
+    flex-direction: row;
+}
+
+.static .design-five {
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.design-five .mk-logo-5 {
+.static .design-five .mk-logo-5 {
     height: 100px; /* Larger logo size for emphasis */
     margin-bottom: 10px;
 }
 
-.design-five .title {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.design-five .navigation {
+.static .design-five .navigation {
     flex-direction: column;
 }
 
-.design-five .navigation a {
+.static .design-five .navigation a {
     padding: 8px 20px;
 }
 
-.design-five .navigation a:hover {
+.static .design-five .navigation a:hover {
     background-color: #555;
 }
 
 /* Animation styles */
 .animated {
-    background-color: #222;
+    background-color: #2222227a;
     color: white;
     padding: 20px;
     margin-bottom: 20px;
@@ -156,34 +157,65 @@ h2 {
     margin-bottom: 10px;
 }
 
-.animation-container {
+.animated .animation-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.animation-container .mk-logo-animated {
+.animated .animation-container .mk-logo-animated {
     width: 220px; /* Adjust image sizes as needed */
     margin-bottom: 10px;
     position: relative;
     cursor: pointer;
 }
 
-.animation-container .mk-logo-animated img {
-    transition: transform 0.5s ease; /* Transition for smooth animation */
+.animated .animation-container .mk-logo-animated img {
+    transition: all 0.5s ease; /* Transition for smooth animation */
 }
 
-.animation-container .mk-logo-animated:hover img {
-    transform: rotateY(180deg); /* Rotate the logo image on hover */
+.animated .animation-container .rotate img:hover {
+    transform: rotate(180deg);
 }
 
-.animation-container .mk-title-animated {
-    width: 400px; /* Adjust image sizes as needed */
-    margin-bottom: 10px;
+.animated .animation-container .scale img:hover {
+    transform: scale(1.2);
 }
 
-.animation-container .navigation.animated {
+.animated .animation-container .bounce img:hover {
+    transform: translateY(-20px);
+}
+
+.animated .animation-container .slide img:hover {
+    transform: translateX(20px);
+}
+
+.animated .animation-container .shake img:hover {
+    transform: translateX(10px);
+}
+
+.animated .animation-container .fade img:hover {
+    opacity: 0.5;
+}
+
+.animated .animation-container .wobble img:hover {
+    transform: translateX(10px) rotate(10deg);
+}
+
+.animated .animation-container .zoom img:hover {
+    transform: scale(1.5);
+}
+
+.animated .animation-container .flip img:hover {
+    transform: rotateY(180deg);
+}
+
+.animated .animation-container .swing img:hover {
+    transform: rotate(20deg);
+}
+
+.animated .animation-container .navigation {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,13 +223,66 @@ h2 {
     margin-top: 10px;
 }
 
-.animation-container .navigation.animated a {
+.animated .animation-container .navigation a {
     color: white;
     text-decoration: none;
     padding: 8px 20px;
     margin-right: 10px;
 }
 
-.animation-container .navigation.animated a:hover {
+.animated .animation-container .navigation a:hover {
     background-color: #555;
 }
+
+/* Additional layouts for animated designs */
+
+/* Animated Design 2 (Vertical Navigation) */
+.animated .design-two {
+    flex-direction: column;
+}
+
+.animated .design-two .navigation {
+    flex-direction: column;
+    align-items: center;
+}
+
+.animated .design-two .navigation a {
+    margin-bottom: 10px;
+}
+
+/* Animated Design 3 (Horizontal Layout) */
+.animated .design-three {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.animated .design-three .navigation {
+    flex-direction: row;
+}
+
+/* Animated Design 4 (Grid Layout) */
+.animated .design-four {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.animated .design-four .navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* Animated Design 5 (Diagonal Layout) */
+.animated .design-five {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.animated .design-five .navigation {
+    flex-direction: column;
+}
+
+
