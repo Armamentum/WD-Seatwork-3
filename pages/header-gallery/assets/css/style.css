@@ -50,10 +50,7 @@
   }
   
   .static .design-one,
-  .static .design-two,
-  .static .design-three,
-  .static .design-four,
-  .static .design-five {
+  .static .design-two {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -84,75 +81,33 @@
   }
   
   /* Specific designs */
-  .design2 .design-two {
+  .design-two {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .design-three .design-three,
+  .design-four .design-four {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  .design2 .mk-title-2 {
-    margin-top: 10px;
-  }
-  
-  .design3 .design-three {
+  .design-three .navigation.vertical,
+  .design-four .navigation.vertical {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   
-  .design3 .mk-logo-3 {
-    order: 2;
+  .design-three .navigation.vertical a,
+  .design-four .navigation.vertical a {
+    padding: 10px 15px;
+    margin-bottom: 5px;
   }
   
-  .design3 .mk-title-3 {
-    order: 1;
-    margin-bottom: 10px;
-  }
-  
-  .design3 .navigation.vertical {
-    display: none;
-  }
-  
-  .design3 .navigation-button {
-    margin-top: 10px;
-  }
-  
-  .design3 input[type="checkbox"] {
-    display: none;
-  }
-  
-  .design3 input[type="checkbox"]:checked ~ .navigation.vertical {
-    display: block;
-    flex-direction: column;
-  }
-  
-  .design4 .design-four {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .design4 .mk-title-4 {
-    margin-top: 10px;
-  }
-  
-  .design5 .design-five {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .design5 .mk-title-5 {
-    margin-top: 10px;
-  }
-  
-  .design5 .navigation.vertical-alt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .design5 .navigation.vertical-alt a {
-    margin-bottom: 10px;
+  .design-three .navigation.vertical a:hover,
+  .design-four .navigation.vertical a:hover {
+    background-color: #555;
   }
   
