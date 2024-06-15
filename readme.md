@@ -93,13 +93,13 @@ WD-Seatwork-3
 |
 └─ pages
 |  └─ Header-Gallery
-|   |  └─ assets
-|   |  |  └─ css
-|   |  |  |  └─ style.css
-|   |  |  └─ img
-|   |  |     └─ fileWith.jpeg/.jpg/.webp/.png
-|   |  └─ index.html
-|   └─ Footer-Gallery
+|  |   └─ assets
+|  |   |  └─ css
+|  |   |  |  └─ style.css
+|  |   |  └─ img
+|  |   |     └─ fileWith.jpeg/.jpg/.webp/.png
+|  |   └─ index.html
+|  └─ Footer-Gallery
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
