@@ -48,9 +48,9 @@
 
 ---
 
-## Overview
+## Overview (to be updated)
 
-Project demonstrate the coding of HTMl and CSS in different kinds of headers and footers in addition of animations. This is to have hands-on experience in coding and having an actual output.
+This Project shows a glimpse into the variety of animations and styles one may use when designing a website.
 
 ### Key Components
 - Header Animation
@@ -58,6 +58,13 @@ Project demonstrate the coding of HTMl and CSS in different kinds of headers and
   - Active Effect
   - Multi Layer Domino Effect
   - Not Effect
+
+- Footer Animations (to be updated)
+  - Hover Effect
+  - Active Effect
+  - Multi Layer Domino Effect
+  - Not Effect
+
 
 
 ### Technology
@@ -76,29 +83,35 @@ Project demonstrate the coding of HTMl and CSS in different kinds of headers and
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-Seatwork-3
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+|       └─ fileWith.jpeg/.jpg/.webp/.png
+|
+|
 └─ pages
-|  └─ pageName
+|  └─ Header-Gallery
+|   |  └─ assets
+|   |  |  └─ css
+|   |  |  |  └─ style.css
+|   |  |  └─ img
+|   |  |     └─ fileWith.jpeg/.jpg/.webp/.png
+|   |  └─ index.html
+|   └─ Footer-Gallery
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
+|     |     └─ fileWith.jpeg/.jpg/.webp/.png
 |     └─ index.html
+|
 └─ index.html
 └─ readme.md
 ```
 
-## Resources
+## Resources (to be updated)
 
 | Title | Purpose | Link |
 |-|-|-|
