@@ -1,56 +1,99 @@
-/* CSS for Design 1 Footer */
+/* Base styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url(../img/mk-bg-header-gallery);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+/* Home link styles */
+.home {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Specific styles for Design 1 Footer */
 .design1 {
-    background-color: black; /* Fallback background color */
-    background-image: url('./assets/img/liu-kang-background.jpg'); /* Background image */
-    background-size: cover; /* Cover the entire footer */
-    background-position: center; /* Center the background image */
-    color: white; /* Text color */
+    /* Background image and additional styling */
+    background-color: rgba(255, 255, 255, 0.568); /* Dark background color with transparency */
+    color: rgb(0, 0, 0); /* Text color */
     padding: 20px; /* Padding around content */
     text-align: center; /* Center-align text */
-  }
-  
-  .design1 h3 {
+}
+
+.design1 h3 {
     margin-bottom: 10px; /* Bottom margin for the heading */
-  }
-  
-  .footer-content {
+}
+
+.footer-content {
     max-width: 800px; /* Maximum width for the footer content */
     margin: 0 auto; /* Center align content horizontally */
-  }
-  
-  .design-one-footer {
+}
+
+.design-one-footer {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .mk-logo-1-footer {
+    flex-direction: column; /* Align items in column */
+}
+
+.mk-logo-1-footer {
     width: 100px; /* Adjust size of MK logo */
     height: auto;
-    margin-right: 20px; /* Space between logo and nav */
-  }
-  
-  .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .footer-content {
-    margin: 10px 0;
-  }
-  
-  .social-icons {
-    margin-top: 20px;
-  }
-  
-  .social-icon {
+    margin-bottom: 10px; /* Space below the logo */
+}
+
+.footer nav {
+    margin-top: 10px; /* Space above the navigation links */
+}
+
+.footer nav ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    text-align: left; /* Align list items to the left */
+}
+
+.footer nav ul li {
+    margin-bottom: 5px; /* Space between list items */
+}
+
+.social-icons {
+    margin-top: 20px; /* Space above social icons */
+}
+
+.social-icon {
     display: inline-block;
-    margin: 0 10px;
-  }
-  
-  .social-icon img {
+    margin: 0 10px; /* Space between social icons */
+}
+
+.social-icon img {
     width: 30px; /* Adjust size of social media icons */
     height: auto;
-  }
-  
+}
