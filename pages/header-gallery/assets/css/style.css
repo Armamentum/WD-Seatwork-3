@@ -3,111 +3,142 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* Global styles */
-  body {
+}
+
+/* Global styles */
+body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
     padding: 20px;
-  }
-  
-  h2 {
+}
+
+h2 {
     margin-top: 40px;
-  }
-  
-  /* Home link styles */
-  .home {
+}
+
+/* Home link styles */
+.home {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  .button {
+}
+
+.button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #333;
     color: white;
     text-decoration: none;
     border-radius: 4px;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     background-color: #555;
-  }
-  
-  /* Static navbar styles */
-  .static {
+}
+
+/* Static navbar styles */
+.static {
     background-color: #333;
     color: white;
     padding: 20px;
     margin-bottom: 20px;
-  }
-  
-  .static h3 {
+}
+
+.static h3 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  .static .design-one,
-  .static .design-two {
+}
+
+.static .design-one,
+.static .design-two,
+.static .design-three,
+.static .design-four,
+.static .design-five {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-  }
-  
-  .static .mk-logo-1,
-  .static .mk-logo-2,
-  .static .mk-logo-3,
-  .static .mk-logo-4,
-  .static .mk-logo-5 {
+}
+
+.static .mk-logo-1,
+.static .mk-logo-2,
+.static .mk-logo-3,
+.static .mk-logo-4,
+.static .mk-logo-5 {
     height: 60px; /* Adjust logo height as needed */
     margin-right: 20px;
-  }
-  
-  .static .navigation {
+}
+
+.static .navigation {
     display: flex;
-  }
-  
-  .static .navigation a {
+}
+
+.static .navigation a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     margin-right: 10px;
-  }
-  
-  .static .navigation a:hover {
+}
+
+.static .navigation a:hover {
     background-color: #555;
-  }
-  
-  /* Specific designs */
-  .design-two {
+}
+
+/* Specific designs */
+.design-two {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .design-three .design-three,
-  .design-four .design-four {
+}
+
+.design-three .design-three,
+.design-four .design-four {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .design-three .navigation.vertical,
-  .design-four .navigation.vertical {
+}
+
+.design-three .navigation.vertical,
+.design-four .navigation.vertical {
     display: flex;
     flex-direction: column;
-  }
-  
-  .design-three .navigation.vertical a,
-  .design-four .navigation.vertical a {
+}
+
+.design-three .navigation.vertical a,
+.design-four .navigation.vertical a {
     padding: 10px 15px;
     margin-bottom: 5px;
-  }
-  
-  .design-three .navigation.vertical a:hover,
-  .design-four .navigation.vertical a:hover {
+}
+
+.design-three .navigation.vertical a:hover,
+.design-four .navigation.vertical a:hover {
     background-color: #555;
-  }
-  
+}
+
+/* Design 5 specific styles */
+.design-five {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.design-five .mk-logo-5 {
+    height: 100px; /* Larger logo size for emphasis */
+    margin-bottom: 10px;
+}
+
+.design-five .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.design-five .navigation {
+    flex-direction: column;
+}
+
+.design-five .navigation a {
+    padding: 8px 20px;
+}
+
+.design-five .navigation a:hover {
+    background-color: #555;
+}
