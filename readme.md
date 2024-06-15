@@ -59,7 +59,7 @@ This project showcases a diverse range of animations and styles that can be impl
   - Tilt Effect
   - Flip Effect
 
-- Footer Animations (to be updated)
+- Footer Animations
   - Pulse Effect
   - Slide Effect
   - active Effect
