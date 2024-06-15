@@ -142,3 +142,62 @@ h2 {
 .design-five .navigation a:hover {
     background-color: #555;
 }
+
+/* Animation styles */
+.animated {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.animated h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.animation-container .mk-logo-animated {
+    width: 220px; /* Adjust image sizes as needed */
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.animation-container .mk-logo-animated img {
+    transition: transform 0.5s ease; /* Transition for smooth animation */
+}
+
+.animation-container .mk-logo-animated:hover img {
+    transform: rotateY(180deg); /* Rotate the logo image on hover */
+}
+
+.animation-container .mk-title-animated {
+    width: 400px; /* Adjust image sizes as needed */
+    margin-bottom: 10px;
+}
+
+.animation-container .navigation.animated {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.animation-container .navigation.animated a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-right: 10px;
+}
+
+.animation-container .navigation.animated a:hover {
+    background-color: #555;
+}
