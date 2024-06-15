@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: url(../img/mk-bg-header-gallery);
+    background: url(../img/cropped-1920-1080-1334948.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -38,7 +38,7 @@ h2 {
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #3333337a;
 }
 
 /* Footer styles */
@@ -93,7 +93,7 @@ footer {
 
 /* Design Specific Styles */
 .design1 {
-    background-color: #333;
+    background-color: #33333396;
     border-radius: 10px;
     padding: 20px;
 }
@@ -105,7 +105,7 @@ footer {
 }
 
 .design2 {
-    background-color: #444;
+    background-color: #4444448f;
     border-radius: 15px;
     padding: 20px;
 }
@@ -117,7 +117,7 @@ footer {
 }
 
 .design3 {
-    background-color: #555;
+    background-color: #5555557e;
     border-radius: 20px;
     padding: 20px;
 }
@@ -129,7 +129,7 @@ footer {
 }
 
 .design4 {
-    background-color: #666;
+    background-color: #66666685;
     border-radius: 25px;
     padding: 20px;
 }
@@ -141,7 +141,7 @@ footer {
 }
 
 .design5 {
-    background-color: #777;
+    background-color: #77777765;
     border-radius: 30px;
     padding: 20px;
 }
