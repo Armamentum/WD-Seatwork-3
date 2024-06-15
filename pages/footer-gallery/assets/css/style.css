@@ -111,34 +111,67 @@ footer {
 }
 
 /* Animation Styles */
-.flip-animation {
-    animation: flip 2s infinite;
+.fade-animation {
+    animation: fade 3s infinite;
 }
 
-.slide-animation {
-    animation: slide 2s infinite;
+.zoom-animation {
+    animation: zoom 3s infinite;
 }
 
-@keyframes flip {
-    0% {
-        transform: rotateY(0);
+.slide-left-animation {
+    animation: slide-left 3s infinite;
+}
+
+.rotate-animation {
+    animation: rotate 3s infinite;
+}
+
+.bounce-animation {
+    animation: bounce 3s infinite;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 1;
     }
     50% {
-        transform: rotateY(180deg);
-    }
-    100% {
-        transform: rotateY(360deg);
+        opacity: 0.5;
     }
 }
 
-@keyframes slide {
-    0% {
+@keyframes zoom {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes slide-left {
+    0%, 100% {
         transform: translateX(0);
     }
     50% {
-        transform: translateX(20px);
+        transform: translateX(-20px);
     }
-    100% {
-        transform: translateX(0);
+}
+
+@keyframes rotate {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
     }
 }
