@@ -8,7 +8,7 @@
 <div align="center">
   <a href="https://github.com/Armamentum/">
   <!-- Logo or Image -->
-    <img src="./assets/img/Logo__1_-removebg-preview.png" alt="logo" width="130" height="100">
+    <img src="./assets/img/Logo__1_-removebg-preview.png" alt="logo" width="400" height="400">
   </a>
 
   <h3 align="center">Seatwork 3: Footer & Header</h3>
