@@ -111,8 +111,14 @@ WD-Seatwork-3
 └─ readme.md
 ```
 
-## Resources (to be updated)
+## Resources
 
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Background for Footer | Background image used in footer designs | [wall.alphacoders.com](https://wall.alphacoders.com/wallpaper.php?i=1334948&w=1920&h=1080&type=crop) |
+| Social Icons | Icons used for social media links | [flaticon.com](https://www.flaticon.com/) |
+| Background for Landing Page and Mortal Kombat Title | Background image for the landing page and Mortal Kombat title | [peakpx.com](https://www.peakpx.com/) |
+| Background for Header Gallery | Background image for the header gallery | [thegamer.com](https://www.thegamer.com/mortal-kombat-1-trailer-hints-set-in-present-day/) |
+| Tool for Removing Background from Images | Online tool to remove background from images | [remove.bg](https://www.remove.bg/) |
+| Johnny Cage Image | Source of the Johnny Cage character image | [pinterest.com](https://ph.pinterest.com/) |
+| Mortal Kombat Logo | Source for the Mortal Kombat logo image | [steamgriddb.com](https://www.steamgriddb.com/logo/93580) |
